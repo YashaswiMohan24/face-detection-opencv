@@ -1,22 +1,23 @@
-# Face Detection using OpenCV
+# Face and Eye Detection using OpenCV
 
-This project implements real-time face detection using Python and OpenCV with Haar Cascade classifiers.
+This project implements **real-time face and eye detection** using Python and OpenCV with Haar Cascade classifiers.  
+The application captures video from a webcam, detects human faces, and then detects eyes **within the detected face region**.
 
-## Features
-- Real-time webcam face detection
-- Displays number of faces detected
-- Simple and beginner-friendly implementation
+---
 
-## Tech Stack
+## 🚀 Features
+- Real-time face detection using Haar Cascades
+- Eye detection inside detected faces
+- Face count display
+- Live webcam feed
+- Clean exit using keyboard controls
+
+---
+
+## 🛠 Tech Stack
 - Python
 - OpenCV
 
-## How to Run
-1. Install dependencies:
-   pip install opencv-python
-2. Run the script:
-   python face_detection.py
-3. Press Q or Esc to exit
+---
 
-## Output
-Detects faces from webcam and draws bounding boxes in real-time.
+## 📂 Project Structure
